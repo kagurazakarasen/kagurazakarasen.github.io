@@ -73,7 +73,7 @@ Center of Excellence」が発行するものであり、編集長はJoseph H. Yu
 
 ## まえがき
 
-本Design and Performance Summary Seriesは、JPLのDeep-Space Communications and
+本書Design and Performance Summary Seriesは、JPLのDeep-Space Communications and
 Navigation Systems Center of Excellenceが発行するものである。本シリーズの目的は、深宇宙
 ミッションにおけるテレコミュニケーションシステムの設計と性能について、簡潔にまとめた
 記録を残すことにある。
