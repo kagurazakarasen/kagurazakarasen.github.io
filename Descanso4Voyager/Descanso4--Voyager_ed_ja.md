@@ -12,7 +12,6 @@ National Aeronautics and Space Administration
 > 「Voyager Telecommunications」(DESCANSO Design and Performance Summary Series, Article 4)
 > の内容を日本語に翻訳・要約したものである。原文はJPLのDESCANSO(Deep Space
 > Communications and Navigation Systems)シリーズのウェブサイトで公開されている。
-> 数値を多数列挙したリンク予算表の一部は、紙面の都合上代表的な値のみを抜粋している。
 
 ---
 
@@ -54,21 +53,23 @@ Center of Excellence」が発行するものであり、編集長はJoseph H. Yu
 
 ## 目次
 
-- まえがき
-- 序文
-- 謝辞
-- 第1章 ボイジャー恒星間ミッションの概要
-- 第2章 テレコム機能の概要
-- 第3章 探査機テレコムシステムの設計
-- 第4章 地上テレコムシステムの説明
-- 第5章 テレコムシステム性能のサンプル
-- 第6章 探査機・地上テレコムの新技術
-- 第7章 ボイジャー恒星間ミッションの運用シナリオ
-- 参考文献
-- 追加資料
-- 略語一覧
+- [まえがき](#preface)
+- [序文](#foreword)
+- [謝辞](#acknowledgements)
+- [第1章 ボイジャー恒星間ミッションの概要](#chapter-1)
+- [第2章 テレコム機能の概要](#chapter-2)
+- [第3章 探査機テレコムシステムの設計](#chapter-3)
+- [第4章 地上テレコムシステムの説明](#chapter-4)
+- [第5章 テレコムシステム性能のサンプル](#chapter-5)
+- [第6章 探査機・地上テレコムの新技術](#chapter-6)
+- [第7章 ボイジャー恒星間ミッションの運用シナリオ](#chapter-7)
+- [参考文献](#references)
+- [追加資料](#additional-material)
+- [略語一覧](#abbreviations)
 
 ---
+
+<a id="preface"></a>
 
 ## まえがき
 
@@ -76,6 +77,8 @@ Center of Excellence」が発行するものであり、編集長はJoseph H. Yu
 Navigation Systems Center of Excellenceが発行するものである。本シリーズの目的は、深宇宙
 ミッションにおけるテレコミュニケーションシステムの設計と性能について、簡潔にまとめた
 記録を残すことにある。
+
+<a id="foreword"></a>
 
 ## 序文
 
@@ -89,12 +92,16 @@ Navigation Systems Center of Excellenceが発行するものである。本シ�
 
 表紙の画像はPat Rawlingsによって制作され、NASAの提供によるものである。
 
+<a id="acknowledgements"></a>
+
 ## 謝辞
 
 著者らは、Dave Bell、Kar-Ming Cheung、Ed Masseyの各氏による助言、提案、有益な情報の
 提供に深く感謝する。
 
 ---
+
+<a id="chapter-1"></a>
 
 ## 第1章 ボイジャー恒星間ミッションの概要
 
@@ -229,6 +236,8 @@ VIMにおけるテレメトリレートのデータ種別への割り当ては�
 
 ---
 
+<a id="chapter-2"></a>
+
 ## 第2章 テレコム機能の概要
 
 本章では、打ち上げ時点で存在していたテレコムシステムの機能について述べる。図2-1は、
@@ -318,6 +327,8 @@ TMUにはSバンドダウンリンク用とXバンドダウンリンク用、そ
 変調されたサブキャリアはSバンドまたはXバンドのエキサイタへ送られる。
 
 ---
+
+<a id="chapter-3"></a>
 
 ## 第3章 探査機テレコムシステムの設計
 
@@ -548,6 +559,8 @@ LGAは打ち上げ直後に使用され、その後も1980年代にLGAリンク�
 
 ---
 
+<a id="chapter-4"></a>
+
 ## 第4章 地上テレコムシステムの説明
 
 DSNは、Sバンド・X帯で集中的に運用され、Kaバンド対応能力も開発中の、地上局(アンテナ、
@@ -637,6 +650,8 @@ MCDとFSSの組み合わせがテレメトリチャンネルアセンブリ(TCA)
 期待値の不一致)数は、ソフトウェアで設定可能である。
 
 ---
+
+<a id="chapter-5"></a>
 
 ## 第5章 テレコムシステム性能のサンプル
 
@@ -753,6 +768,8 @@ Xバンド低出力ダウンリンクでは、平均受信Pt/N0は39.9dB-Hz、�
 Pt/N0は36.82〜39.76dB-Hz、テレメトリのST/N0は12.55〜15.66dBの範囲で推移する。
 
 ---
+
+<a id="chapter-6"></a>
 
 ## 第6章 探査機・地上テレコムの新技術
 
@@ -916,6 +933,8 @@ Modcomp IIコンピュータからなるシステムであった。TTSを操作�
 技術は、飛行管制チームの効率向上に大きく貢献した。
 
 ---
+
+<a id="chapter-7"></a>
 
 ## 第7章 ボイジャー恒星間ミッションの運用シナリオ
 
@@ -1094,6 +1113,8 @@ VIM開始時、HGA指向情報は機上テーブルへアップリンクされ�
 
 ---
 
+<a id="references"></a>
+
 ## 参考文献
 
 - [1] JPL内部文書 618-257, *Voyager Telecommunications Design Control Document*, 1988年1月15日
@@ -1114,12 +1135,16 @@ VIM開始時、HGA指向情報は機上テーブルへアップリンクされ�
 - [16] JPL内部文書 618-123 Vol. V, *Voyager Mission Design Guidelines And Constraints, Interstellar Mission*, 1991年3月29日
 - [17] JPL内部文書 618-235 Vol. I, *Voyager Computer Command Subsystem Flight Software Design Description*, C. E. Presley, 1999年8月1日
 
+<a id="additional-material"></a>
+
 ## 追加資料
 
 原文には、ボイジャーのヘリオポーズ到達に関する報道記事、IMP・WIND・ACE・SAMPEXなど
 関連探査機のウェブサイト、DSNおよびJPLの技術解説ページ、NASAの宇宙科学戦略計画など、
 17件の外部リンクが「Additional Resources」として掲載されている。詳細は原文(DESCANSO
 ウェブサイト)を参照されたい。
+
+<a id="abbreviations"></a>
 
 ## 略語一覧
 
